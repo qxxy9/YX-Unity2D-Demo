@@ -1,0 +1,51 @@
+# Unity 官方 .gitignore 模板
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 内存快照 / 录屏，体积大且可能含敏感数据
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Rider / VS 自动生成的插件与缓存
+/[Aa]ssets/Plugins/Editor/JetBrains*
+.vs/
+.gradle/
+
+# 自动生成的解决方案与工程文件（别人拉下来会自动重建）
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity 崩溃报告
+sysinfo.txt
+
+# 构建产物（要发布请走 GitHub Releases，不要放进仓库）
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# 注意：*.meta 绝对不能忽略，Unity 靠它维护资源引用关系
+
+# VS 配置（Unity 打开项目时自动生成）
+.vsconfig

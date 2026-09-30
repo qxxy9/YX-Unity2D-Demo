@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c822f6a84f57ae48a3c66c870a4ccb9, type: 3}
+  m_Name: LaterLetter
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: LaterLetter
+  icon: {fileID: -194873117, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  dropChance: 0
+  equipmentType: 3
+  effects:
+  - {fileID: 11400000, guid: 5d170ee623212f0418298bde001c855b, type: 2}
+  strength: 10
+  agility: 10
+  intelligence: 10
+  vitality: 10
+  damage: 10
+  critChance: 10
+  critPower: 10
+  maxHp: 9
+  armor: 9
+  evasion: 9
+  magicResistance: 9
+  fireDamage: 9
+  iceDamage: 9
+  lightningdamage: 9
+  craftMaterial:
+  - data: {fileID: 11400000, guid: e42580deb26c42444bf254c4c890bc3a, type: 2}
+    stackSize: 1
+  - data: {fileID: 11400000, guid: 3fd3c6cf7e9530146af628f88b1bfaf6, type: 2}
+    stackSize: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6539ec40b37f3d64e9d5d78b1c476a16, type: 3}
+  m_Name: Attck Agent
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Attck Agent
+  icon: {fileID: -770765129, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  dropChance: 16
+  objectType: 0
+  _itemEffect: {fileID: 11400000, guid: 125415ccf3b41594ba8720d7af0af66f, type: 2}
+  craftMaterial:
+  - data: {fileID: 11400000, guid: 579491b63b39e78428f7d66bd68ff291, type: 2}
+    stackSize: 1
+  - data: {fileID: 11400000, guid: e5b50ee44e3cce141949103bc9defe2f, type: 2}
+    stackSize: 1
