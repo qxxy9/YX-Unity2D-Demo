@@ -87,6 +87,4 @@ Assets/Scripts/
 - 美术素材来源：免费素材以及AI生成
 - 部分代码参考：https://www.udemy.com/course/2d-rpg-alexdev/
 
----
 
-**发布建议**：打包好的 exe 不要放进仓库，用 GitHub Releases 挂下载链接即可。
